@@ -34,7 +34,7 @@ The easiest method to open PowerShell is directly from the Configuration Manager
 
 1. After Windows PowerShell loads, you'll see a prompt that contains your site code. For example, if the site code is "ABC", the prompt looks like: `PS ABC:\>`
 
-1. To verify it works, use the **Get-CMSite** cmdlet. This cmdlet returns information about the Configuration Manager site you're currently connected to and any child sites. For example, the site server name, installation director, site name, and version.
+1. To verify it works, use the **Get-CMSite** cmdlet. This cmdlet returns information about the Configuration Manager site you're currently connected to and any child sites. For example, the site server name, installation directory, site name, and version.
 
 > [!NOTE]
 > When you start PowerShell or the PowerShell ISE from the Configuration Manager console, it uses the **AllSigned** execution policy for the **Process** scope.<!-- 12618619 --> If this default secure configuration is too much for your environment, there are two options to work around it:
